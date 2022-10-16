@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 40px;
+    align-items: center;
+     text-decoration: solid;
+}
+/*home page starts here */
+body{
+    margin:0%;
+    padding: 0%;
+    background-color: rgb(230, 226, 219);
+    height: 100vh;
+}
+.main-header{
+    
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 100%;
+    background-color: rgb(135, 154, 197);
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+.logo{
+width: 550px;  
+text-align: center;  
+padding: 3px;  
+
+}
+
+.main-nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 10px solid rgb(0, 0, 0);
+    
+}
+
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+  
+}
+
+
+.list-item {
+    margin-right: 18px;
+    align-items: center;
+    
+
+}
+a:hover{
+    color: rgb(8, 8, 8);
+    font-size: 30px;
+    text-decoration: solid;
+}
+/* personal info start here*/
+
+.personalinfo{
+    background-color: rgb(10, 10, 10);
+    font-size: x-large;
+    padding: 7px;
+    border: 7px solid rgb(135, 154, 197);
+    image-rendering: auto;
+    font-style: oblique;
+    
+  
+    
+}
+
+.personal-text{
+    display: flex;
+     border: 7px;
+}
+
+
+
+
+/* About me start here*/
+
+.content-box{
+    background-color: rgb(230, 226, 216);
+    width: 100%; 
+    float: flex; 
+    height: 900px;
+    flex-direction:column;
+    
+}
+.p1{
+    margin: auto;
+    align-items: center;
+    background-color:  rgb(135, 154, 197);
+    font-size: large;
+    text-decoration: solid;
+    text-size-adjust: 20px;
+}
+.p2{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    text-size-adjust: 20px;
+}
+
+
+
+
+/* contact start here*/
+
+p{
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    text-size-adjust: 40px;
+    color: rgb(0, 0, 0);
+    background-color:  rgb(135, 154, 197);
+}
